@@ -9,7 +9,7 @@ public class Main {
         String targetDirStr = "d:\\ArhCopyDirectory";
 
         try {
-            copyDir(sourceDirStr, targetDirStr);
+            copyDir(sourceDirStr,  targetDirStr);
         } catch (IOException e) {
             e.printStackTrace();
         }
